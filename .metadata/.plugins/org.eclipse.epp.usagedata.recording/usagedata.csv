@@ -1,0 +1,51 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.mylyn.tasks.ui,3.6.5.v20120215-0100,"org.eclipse.mylyn.tasks.ui",1343068109553
+started,bundle,org.eclipse.mylyn.team.ui,3.6.1.v20110825-0100,"org.eclipse.mylyn.team.ui",1343068109553
+started,bundle,org.eclipse.search,3.7.0.v20110928-1504,"org.eclipse.search",1343068109553
+started,bundle,org.eclipse.team.core,3.6.0.I20110525-0800,"org.eclipse.team.core",1343068109553
+started,bundle,org.eclipse.team.cvs.core,3.3.400.I20110510-0800,"org.eclipse.team.cvs.core",1343068109553
+started,bundle,org.eclipse.team.cvs.ui,3.3.401.v20120126-1227,"org.eclipse.team.cvs.ui",1343068109553
+started,bundle,org.eclipse.team.ui,3.6.101.R37x_v20111109-0800,"org.eclipse.team.ui",1343068109553
+started,bundle,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui",1343068109553
+started,bundle,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console",1343068109553
+started,bundle,org.eclipse.ui.editors,3.7.0.v20110928-1504,"org.eclipse.ui.editors",1343068109554
+started,bundle,org.eclipse.ui.forms,3.5.101.v20111011-1919,"org.eclipse.ui.forms",1343068109554
+started,bundle,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.ide",1343068109554
+started,bundle,org.eclipse.ui.navigator,3.5.101.v20120106-1355,"org.eclipse.ui.navigator",1343068109554
+started,bundle,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.resources",1343068109554
+started,bundle,org.eclipse.ui.net,1.2.100.v20111208-1155,"org.eclipse.ui.net",1343068109554
+started,bundle,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views",1343068109554
+started,bundle,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"org.eclipse.ui.workbench",1343068109555
+started,bundle,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.workbench.texteditor",1343068109555
+started,bundle,org.eclipse.update.configurator,3.3.100.v20100512,"org.eclipse.update.configurator",1343068109555
+started,bundle,org.eclipse.update.core,3.2.500.v20110330,"org.eclipse.update.core",1343068109555
+started,bundle,org.eclipse.update.scheduler,3.2.300.v20100512,"org.eclipse.update.scheduler",1343068109555
+started,bundle,org.eclipse.wst.common.core,1.2.0.v200908252030,"org.eclipse.wst.common.core",1343068109555
+started,bundle,org.eclipse.wst.common.emf,1.2.100.v201101101900,"org.eclipse.wst.common.emf",1343068109556
+started,bundle,org.eclipse.wst.common.emfworkbench.integration,1.2.101.v201107140600,"org.eclipse.wst.common.emfworkbench.integration",1343068109556
+started,bundle,org.eclipse.wst.common.frameworks,1.2.102.v201201190400,"org.eclipse.wst.common.frameworks",1343068109556
+started,bundle,org.eclipse.wst.common.frameworks.ui,1.2.100.v201105122000,"org.eclipse.wst.common.frameworks.ui",1343068109556
+started,bundle,org.eclipse.wst.common.modulecore,1.2.103.v201201190400,"org.eclipse.wst.common.modulecore",1343068109556
+started,bundle,org.eclipse.wst.common.project.facet.core,1.4.201.v201201101553,"org.eclipse.wst.common.project.facet.core",1343068109556
+started,bundle,org.eclipse.wst.validation,1.2.303.v201202090300,"org.eclipse.wst.validation",1343068109556
+started,bundle,org.eclipse.wst.web,1.1.501.v201201190400,"org.eclipse.wst.web",1343068109556
+started,bundle,org.eclipse.wst.xml.core,1.1.602.v201201091944,"org.eclipse.wst.xml.core",1343068109556
+started,bundle,com.python.pydev.analysis,2.6.0.2012062818,"com.python.pydev.analysis",1343068109556
+started,bundle,org.python.pydev,2.6.0.2012062818,"org.python.pydev",1343068109556
+started,bundle,org.python.pydev.core,2.6.0.2012062818,"org.python.pydev.core",1343068109556
+os,sysinfo,,,"win32",1343068109561
+arch,sysinfo,,,"x86_64",1343068109561
+ws,sysinfo,,,"win32",1343068109561
+locale,sysinfo,,,"en_US",1343068109561
+processors,sysinfo,,,"4",1343068109561
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1343068109561
+java.runtime.version,sysinfo,,,"1.6.0_33-b03",1343068109561
+java.specification.name,sysinfo,,,"Java Platform API Specification",1343068109561
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1343068109561
+java.specification.version,sysinfo,,,"1.6",1343068109561
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1343068109561
+java.version,sysinfo,,,"1.6.0_33",1343068109561
+java.vm.info,sysinfo,,,"mixed mode",1343068109561
+java.vm.name,sysinfo,,,"Java HotSpot(TM) 64-Bit Server VM",1343068109561
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1343068109561
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1343068109561
