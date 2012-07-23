@@ -49,3 +49,37 @@ java.vm.info,sysinfo,,,"mixed mode",1343068109561
 java.vm.name,sysinfo,,,"Java HotSpot(TM) 64-Bit Server VM",1343068109561
 java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1343068109561
 java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1343068109561
+java.vm.specification.version,sysinfo,,,"1.0",1343068109561
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1343068109561
+java.vm.version,sysinfo,,,"20.8-b03",1343068109561
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1343068134216
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1343068137448
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1343068139818
+started,bundle,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui",1343068158208
+started,bundle,org.python.pydev.parser,2.6.0.2012062818,"org.python.pydev.parser",1343068263547
+error,log,,,"Info: Rebuilding internal caches: C:\\Users\\ostrowa\\Documents\\code\\project-euler\\.metadata\\.plugins\\com.python.pydev.analysis\\python_v1_258tvcdekrk5tmtf5h0ez044z\\python.pydevsysteminfo (Expected error to be provided and got no error!)",1343068286113
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1343068354657
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.window.preferences",1343068354677
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1343068360957
+error,log,,,"Info: Rebuilding internal caches: C:\\Users\\ostrowa\\Documents\\code\\project-euler\\.metadata\\.plugins\\org.eclipse.core.resources\\.projects\\python-solutions\\com.python.pydev.analysis\\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)",1343068399010
+started,bundle,org.eclipse.jst.servlet.ui,1.1.502.v201202011054,"org.eclipse.jst.servlet.ui",1343068399050
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1343068402660
+started,bundle,org.python.pydev.red_core,2.6.0.2012062818,"org.python.pydev.red_core",1343068402710
+opened,view,org.python.pydev,2.6.0.2012062818,"org.python.pydev.navigator.view",1343068402740
+opened,view,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.views.ProblemView",1343068402890
+opened,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1343068402920
+activated,perspective,org.python.pydev,2.6.0.2012062818,"org.python.pydev.ui.PythonPerspective",1343068402930
+activated,view,org.python.pydev,2.6.0.2012062818,"org.python.pydev.navigator.view",1343068402940
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1343068407900
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1343068460505
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1343068462785
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1343068513001
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1343068514829
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1343068521861
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1343068527171
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1343068528241
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1343068528271
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1343068529651
+closed,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1343068529731
+started,bundle,org.eclipse.compare.core,3.5.200.I20110208-0800,"org.eclipse.compare.core",1343068529901
+started,bundle,org.eclipse.compare,3.5.202.R37x_v20111109-0800,"org.eclipse.compare",1343068529911

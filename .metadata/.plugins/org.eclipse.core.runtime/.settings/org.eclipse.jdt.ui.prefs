@@ -1,9 +1,16 @@
+AbstractTextEditor.Color.Background=255,255,255
+AbstractTextEditor.Color.Background.SystemDefault=false
+AbstractTextEditor.Color.Foreground=0,0,0
+AbstractTextEditor.Color.Foreground.SystemDefault=false
 AbstractTextEditor.Color.SelectionBackground=99,152,194
 AbstractTextEditor.Color.SelectionForeground=0,0,0
+AbstractTextEditor.Color.SelectionForeground.SystemDefault=false
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
+currentLineColor=235,243,251
 eclipse.preferences.version=1
 fontPropagated=true
+java_annotation=0,0,0
 java_annotation_bold=false
 java_annotation_italic=false
 java_annotation_strikethrough=false
