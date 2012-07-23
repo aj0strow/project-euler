@@ -1,0 +1,27 @@
+!SESSION 2012-07-23 11:05:09.365 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\ostrowa\Documents\code\project-euler
+
+!ENTRY com.perforce.team.core 2 0 2012-07-23 11:05:12.618
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://286.fwk15674464:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2012-07-23 11:05:12.628
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://286.fwk15674464:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2012-07-23 11:05:12.628
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2012-07-23 11:05:12.628
+!MESSAGE Using default charset: windows-1252; JVM charset: windows-1252
+
+!ENTRY com.perforce.team.core 1 0 2012-07-23 11:05:12.628
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2012-07-23 11:05:12.628
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2012-07-23 11:05:12.628
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
