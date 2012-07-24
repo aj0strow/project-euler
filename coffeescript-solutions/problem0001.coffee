@@ -12,12 +12,12 @@ sumOfMultiplesBelow = (maximum, factors) ->
   multiplesBelow(maximum, factors).sum()
 
 multiplesBelow = (maximum, factors) ->
-  i for i in [2...maximum] when i.hasFactor factors
+  i for i in [2...maximum] when i.hasFactorIn factors
 
 Array::sum = -> 
   this.reduce (x, y) -> x + y
 
-Number::hasFactor = (factors) ->
+Number::hasFactorIn = (factors) ->
   for factor in factors
     return true if this % factor == 0
   false
