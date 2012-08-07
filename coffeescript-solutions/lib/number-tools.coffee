@@ -7,7 +7,6 @@ Number::factorsIn = (array) ->
 Number::hasFactor = (factor) ->
   this % factor == 0
 
-
 Number::hasFactorIn = (factors) ->
   for factor in factors
     return true if @hasFactor(factor)
