@@ -21,6 +21,5 @@ fibonacciNumbersBelow = (maximum_value) ->
     [a, b] = [b, a+b]
   fibonacciNums
     
-  
 console.log sumOfEvenFibonacciNumbersBelow 4000000
 # => 4613732

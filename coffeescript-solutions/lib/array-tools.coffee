@@ -1,2 +1,2 @@
 Array::sum = -> 
-  this.reduce (x, y) -> x + y
+  @reduce (x, y) -> x + y

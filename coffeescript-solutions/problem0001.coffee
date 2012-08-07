@@ -17,7 +17,5 @@ sumOfMultiplesBelow = (maximum, factors) ->
 multiplesBelow = (maximum, factors) ->
   i for i in [2...maximum] when i.hasFactorIn factors
 
-
-  
 console.log "#{ sumOfMultiplesBelow 1000, [3, 5] }"
 # => 233168
