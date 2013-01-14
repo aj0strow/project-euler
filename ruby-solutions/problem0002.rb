@@ -15,9 +15,7 @@
 class Fibonacci
   
   def initialize(stop)
-    @stop = stop
-    @smaller = 1
-    @larger = 2
+    @smaller, @larger, @stop = 1, 2, stop
   end
   
   def self.up_to(stop)
@@ -41,7 +39,7 @@ def sum_of_even_fib_below(value)
   sum
 end
 
-sum_of_even_fib_below(4_000_000)
+puts sum_of_even_fib_below(4_000_000)
 # => 4613732
 
 # Benchmark

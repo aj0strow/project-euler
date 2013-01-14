@@ -13,7 +13,7 @@ require 'set'
 
 def sum_of_multiples_below(value, factors = [3, 5])
   all_factors = factors.map { |num| (num...value).step(num).to_a }.flatten!
-  Set.new( all_factors ).reduce(&:+)
+  Set.new(all_factors).reduce(&:+)
 end
 
 sum_of_multiples_below(1000)
