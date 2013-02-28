@@ -9,15 +9,13 @@
 
 =end
 
-require 'set'
-
 def sum_of_multiples_below(value, factors = [3, 5])
-  all_factors = factors.map { |num| (num...value).step(num).to_a }.flatten!
-  Set.new(all_factors).reduce(&:+)
+  vals = factors.map { |n| (n...value).step(n).to_a }.flatten
+  vals.uniq.reduce(:+)
 end
 
 sum_of_multiples_below(1000)
 # => 233168
 
 # Benchmark
-# 0.000000   0.000000   0.000000   (0.000718)
+# 0.000000   0.000000   0.000000   (0.000511)
