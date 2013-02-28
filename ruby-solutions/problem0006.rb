@@ -20,7 +20,7 @@
 
 def sums_and_squares_difference(values)
   sum_of_squares = values.reduce { |sum, val| sum + val ** 2 }
-  square_of_sums = values.reduce(&:+) ** 2
+  square_of_sums = values.reduce(:+) ** 2
   (square_of_sums - sum_of_squares).abs
 end
 
@@ -28,4 +28,5 @@ sums_and_squares_difference(1..100)
 # => 25164150
 
 # Benchmark
-# 0.000000   0.000000   0.000000   (0.000084)
+# 0.000000   0.000000   0.000000   (0.000071)
+
