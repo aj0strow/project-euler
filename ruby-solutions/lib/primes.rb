@@ -29,6 +29,15 @@ class Primes
       num > 9 && !LIKELY_ENDING[ num.to_s[-1] ]
     end
     
+    def below(value)
+      multiples = Array.new(value + 1)
+      max = Math.sqrt(value).floor
+      (2..max).each do |num|
+        (num * 2..value).step(num).each {|i| multiples[i] = true }
+      end
+      (2..value).reject { |i| multiples[i] }
+    end
+    
   end
   
 end
