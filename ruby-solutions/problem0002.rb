@@ -14,35 +14,33 @@
 
 class Fibonacci
   
+  include Enumerable
+  
   def initialize(stop)
     @smaller, @larger, @stop = 1, 2, stop
   end
   
-  def self.up_to(stop)
-    self.new(stop)
+  class << self
+    alias :up_to :new
   end
   
-  def each(&block)
+  def each
     while @smaller < @stop
       yield(@smaller)
       @smaller, @larger = @larger, @smaller + @larger
     end
+    @smaller, @larger = 1, 2
   end
   
 end
 
 def sum_of_even_fib_below(value)
-  sum = 0
-  Fibonacci.up_to(value).each do |num|
-    sum += num if num.even?
-  end
-  sum
+  Fibonacci.up_to(value).select(&:even?).reduce(:+)
 end
 
 puts sum_of_even_fib_below(4_000_000)
 # => 4613732
 
 # Benchmark
-# 0.000000   0.000000   0.000000   (0.000026)
-
+# 0.000000   0.000000   0.000000   (0.000062)
 

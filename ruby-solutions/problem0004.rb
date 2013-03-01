@@ -16,16 +16,19 @@ end
 
 def largest_product_palindrome(digits)
   stop = 10 ** digits
-  start = (stop * 0.8).to_i # assumes palindrome will be found in top 20% of values
-  values = (start...stop).to_a.map do |i|  
-    (start...stop).to_a.map { |j| i * j }
+  
+  # assume a palindrome will be found in top 20% of values
+  start = (stop * 0.8).to_i
+  
+  values = (start...stop).map do |i|  
+    (start...stop).map { |j| i * j }
   end
-  values.flatten!.sort { |x, y| y <=> x }.find { |num| palindrome?(num) }
+  values.flatten.select { |v| palindrome? v }.max
 end
 
 largest_product_palindrome(3)
 # => 906609
 
 # Benchmark
-# 0.190000   0.000000   0.190000   (0.190758)
+# 0.070000   0.000000   0.070000   (0.066481)
 
