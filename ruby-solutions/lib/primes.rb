@@ -18,10 +18,7 @@ class Primes
         false
       else
         sqrt = Math.sqrt(num).to_i
-        prime = (2..sqrt).each do |divisor|
-          break false if num % divisor == 0
-        end
-        !!prime
+        (2..sqrt).none? { |div| num % div == 0 }
       end      
     end
     

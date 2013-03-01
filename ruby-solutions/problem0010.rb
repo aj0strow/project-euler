@@ -10,7 +10,11 @@
 
 require_relative 'lib/primes'
 
-Primes.below(2_000_000).reduce(&:+)
+def sum_of_primes_below(max)
+  Primes.below(max).reduce(:+)
+end
+
+sum_of_primes_below(2_000_000)
 # => 142913828922
 
 # Benchmark
