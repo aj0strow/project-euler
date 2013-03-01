@@ -13,11 +13,11 @@
 require_relative 'lib/primes'
 
 def divisible_by_all?(num, values)
-  !values.find { |v| num % v != 0 }
+  values.all? { |v| num % v == 0 }
 end
 
 def smallest_divisible_by_all(values)
-  unit = values.to_a.keep_if { |v| Primes.include?(v) }.reduce(&:*)
+  unit = values.select{ |v| Primes.include?(v) }.reduce(:*)
   test = unit
   test += unit until divisible_by_all?(test, values)
   test
@@ -27,4 +27,4 @@ smallest_divisible_by_all(1..20)
 # => 232792560
 
 # Benchmark
-# 0.000000   0.000000   0.000000   (0.000169)
+# 0.000000   0.000000   0.000000   (0.000154)
