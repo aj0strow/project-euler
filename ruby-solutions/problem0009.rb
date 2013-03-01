@@ -12,21 +12,21 @@
 
 =end
 
+def triplet?(a, b, c)
+  a*a + b*b == c*c
+end
+
 def find_triplet_for(sum)
   max = sum / 3
   a, b, c = 1, 2, 3
   while a < max
     while b < c
-      c = 1000 - a - b
-      return a*b*c if triplet?(a, b, c)
+      c = sum - a - b
+      return a * b * c if triplet?(a, b, c)
       b = b.next
     end
     a, b = a.next, a + 2
   end
-end
-
-def triplet?(a, b, c)
-  a*a + b*b == c*c
 end
 
 find_triplet_for(1000)
