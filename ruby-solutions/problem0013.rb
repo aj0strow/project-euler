@@ -111,11 +111,11 @@ NUMBERS = '''
 '''.strip
 
 def parse_numbers(str)
-  str.split
+  str.split.map(&:to_i)
 end
 
 def ten_digits_of_sum(nums)
-  nums.map(&:to_i).reduce(:+).to_s[0..9]
+  nums.reduce(:+).to_s[0..9]
 end
 
 ten_digits_of_sum parse_numbers(NUMBERS)
