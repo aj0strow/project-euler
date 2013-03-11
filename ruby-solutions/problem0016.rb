@@ -8,8 +8,10 @@
 
 =end
 
+require_relative 'lib/numbers'
+
 def power_digit_sum(base, exp)
-  (base ** exp).to_s.each_char.map(&:to_i).reduce(:+)
+  digits(base ** exp).reduce(:+)
 end
 
 power_digit_sum(2, 1000)
